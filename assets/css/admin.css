@@ -1,0 +1,61 @@
+.bg-dark {
+    font-family: 'Abril Fatface', cursive;
+    background-image : url('../img/rosa.jpg') !important;
+    background-size: cover;
+    color: rgb(4, 12, 9) !important;
+    
+   
+}
+/*separacion de botones de compra y agrgar en cliente*/
+.p-4 {
+    padding: 1rem !important;
+}
+/* es el menu de navegacion y boton "nuevo"*/
+.bg-gradient-primary {
+    background-color: #0ea8d7;
+    background-image: linear-gradient(180deg, #08343e 10%, #4590af 100%) !important;
+    background-size: cover
+}
+.btn-primary {
+    color: #fff;
+    background-color: #08343e;
+    border-color: #4590af;
+}
+/* es para que no hayga barra de navegacion en admin*/
+body {
+    display: block;
+    margin: 0px !important;
+}
+/* color de cartas*/
+.card-img-top{
+     border-top-right-radius: calc(6rem - 1px) !important ;   
+}
+.card{
+    background-color: #92c0b1 !important;
+}
+.btn-flotante {
+    font-size: 16px; /* Cambiar el tamaño de la tipografia */
+    font-weight: bold; /* Fuente en negrita o bold */
+    color: #ffffff; /* Color del texto */
+    border-radius: 5px; /* Borde del boton */
+    letter-spacing: 2px; /* Espacio entre letras */
+    background-color: #09c450; /* Color de fondo */
+    padding: 18px 30px; /* Relleno del boton */
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+    text-decoration: none;
+}
+.btn-warning {
+    color: #000;
+    background-color: #11e795 !important;
+    border-color: #e61430 !important;
+  }
+/* Boton de eliminar de administracion*/
+  .btn-danger {
+    color: #fff;
+    background-color: #5738e4 !important;
+    border-color: #07031b !important;
+}
